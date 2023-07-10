@@ -1,0 +1,135 @@
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+
+#content {
+    /* ... */
+    padding-bottom: 81px;
+    /* El tamaño del footer para evitar el sobreposicionamiento */
+}
+
+/* make the customizations */
+$theme-colors: (
+    "danger": #d9e1df,
+    "success":#9fd9b3,
+    "info": #e2d9db,
+    "light": #f2e5f9,
+    "dark": #f42a55,
+    "warning": #fcd487,
+    "primary": #fe6763,
+    "secondary": #ff8a84,
+    "person":#FC2B2B,
+    "person1":#ff1745b7,
+
+
+);
+
+.title-card {
+    font-style: normal;
+    font-weight: 600;
+    color: #FC2B2B;
+}
+
+/* inicio estilos para ModalFoot */
+.letter {
+    color: rgb(255, 255, 255);
+}
+
+.button-card {
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    background: #FC2B2B;
+    border-radius: 10px;
+}
+
+.button-card-right {
+    width: 120px;
+    height: 50px;
+    line-height: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.shadow-text {
+    text-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* fin estilos para ModalFoot */
+
+/* inicio de estilos para el footer */
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 140px;
+    background-color: #FF1744;
+}
+
+.letter-footer {
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+
+/* fin de estilos para footer */
+
+/* inicio de estilos para CardInfo */
+.card-info {
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-imag {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 18xp;
+    border-top-right-radius: 18px;
+}
+
+/* fin de estilos para CardInfo */
+
+/* inicio de estilos para login */
+
+
+.titulo-text {
+    font-style: normal;
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.placerr{
+    font-size: 70px;
+}
+
+/* fin de estilos para login */
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,900&display=swap');
+
+
+@import "~bootstrap/scss/bootstrap";

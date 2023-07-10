@@ -1,0 +1,28 @@
+/* make the customizations */
+$theme-colors: (
+    "danger": #d9e1df,
+    "success":#9fd9b3,
+    "info": #e2d9db,
+    "light": #f2e5f900,
+    "dark": #090909,
+    "warning": #fcd487,
+    "primary": #fe6763,
+    "secondary": #ff8a84,
+);
+
+#img_home{
+    background-image: url("../public/home.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#home-title{
+    margin-top: 30%;
+    font-size: 4.5rem;
+}
+
+@import "~bootstrap/scss/bootstrap";
